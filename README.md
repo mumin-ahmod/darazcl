@@ -137,3 +137,5 @@ flutter run
 | `cupertino_icons` | `^1.0.8` | iOS-style icons |
 
 Data is fetched from the API using `dio` through a shared `ApiClient` in `lib/core/network/`.
+
+3 Screenshots included in the root folder with the look of main 3 pages.
