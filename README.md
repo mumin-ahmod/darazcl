@@ -124,13 +124,6 @@ flutter pub get
 flutter run
 ```
 
-To run on a specific platform:
-
-```bash
-flutter run -d android   # Android emulator / device
-flutter run -d ios       # iOS simulator / device
-flutter run -d chrome    # Web
-```
 
 ---
 
@@ -143,4 +136,4 @@ flutter run -d chrome    # Web
 | [`provider`](https://pub.dev/packages/provider) | `^6.1.2` | State management (ChangeNotifier-based) |
 | `cupertino_icons` | `^1.0.8` | iOS-style icons |
 
-Data is fetched from the [DummyJSON](https://dummyjson.com) public API using `dio` through a shared `ApiClient` in `lib/core/network/`.
+Data is fetched from the API using `dio` through a shared `ApiClient` in `lib/core/network/`.
